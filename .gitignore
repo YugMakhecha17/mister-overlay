@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project specific
+*.pth
+*.pkl
+*.pt
+*.h5
+*.onnx
+*.tflite
+*.pb
+*.pbtxt
+*.pem
+*.p12
+*.key
+*.crt
+*.cer
+*.pem
+
+# Output and temporary files
+output/
+outputs/
+temp/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+*.log
+*.log.*
+*.sql
+*.sqlite
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Project specific ignores
+previews/
+streamlit_output.png
+final_overlay.png
+saliency.pt
+u2net.pth
+
+# Local development settings
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
