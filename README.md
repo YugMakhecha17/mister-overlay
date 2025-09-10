@@ -1,59 +1,65 @@
-# TextOverlay
+# TextOverlay 🖌️
 
-TextOverlay is a powerful Python project designed to intelligently overlay text on images in a systematic and visually appealing manner.
+[![Python](https://img.shields.io/badge/python-3.8+-blue)](https://www.python.org/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue)](https://github.com/YugMakhecha17/textoverlay)
 
-# Features
+**TextOverlay** is a powerful Python library that intelligently overlays text on images in a systematic and visually appealing manner. It leverages computer vision and deep learning to automatically determine optimal text placement areas.
 
-Intelligent Text Placement: Uses computer vision and deep learning to analyze images and determine the best areas for text overlay.
+---
 
-Custom Placement: Allows precise text positioning anywhere on the image.
+## ✨ Features
 
-Saliency Detection: Ensures text is placed on the most visually appropriate areas.
+- **Intelligent Text Placement:** Uses CV/DL to analyze images and determine the best areas for text overlay.  
+- **Custom Placement:** Allows precise text positioning anywhere on the image.  
+- **Saliency Detection:** Ensures text is placed in visually optimal areas.  
+- **Multiple Overlay Styles:** Supports various styling options for text overlays.  
+- **Self-Contained:** Fully functional without relying on external APIs.  
 
-Multiple Overlay Styles: Offers various styling options for text overlays.
+---
 
-No Fancy APIs Required: Fully self-contained; does not rely on external APIs.
+## 🎯 Ideal Use Cases
 
-# Ideal Use Cases
+- Social media posts  
+- Digital marketing campaigns & ads  
+- Product images  
+- News articles  
+- Blog posts  
+- Any image requiring high-quality text overlay  
 
-Social media posts
+---
 
-Digital marketing campaigns & ads
+## 🚀 Getting Started
 
-Product images
+### Requirements
 
-News articles
+- Python 3.8+  
+- [Pillow](https://pillow.readthedocs.io/) for image processing  
+- [PyTorch](https://pytorch.org/) for AI models  
 
-Blog posts
+---
 
-Any image that requires text overlay
+### Downloading Weights
 
-
-# Getting Started
-# Requirements
-
-Python 3.8+
-
-Pillow
- for image processing
-
-PyTorch
- for AI models
-
-Downloading Weights
-
-TextOverlay uses the U2Net architecture. To download the pre-trained weights, run:
-
-python -m textoverlay.models.model_downloader list
-
-
+TextOverlay uses the **U2Net** architecture. To download pre-trained weights, run:
 You will be given two options:
 
-u2net – Full weights, recommended for most use cases.
+u2net – Full weights, recommended for most cases.
 
-u2netp – Lightweight version, faster but less accurate.
+u2netp – Lightweight version, faster but slightly less accurate.
 
 Select the desired option to download the weights.
+
+# Installation
+
+Clone the repository and install dependencies:
+
+# Clone the repository
+git clone https://github.com/YugMakhecha17/textoverlay.git
+cd textoverlay
+
+# Install required packages
+pip install -r requirements.txt
 
 # Usage Example
 from textoverlay.overlay import interactive_overlay
@@ -65,26 +71,17 @@ interactive_overlay(
     preferred_area="custom"
 )
 
-# Installation
+# Contributing
 
-Clone the repository and install dependencies:
-
-git clone https://github.com/YugMakhecha17/textoverlay.git
-cd textoverlay
-pip install -r requirements.txt
-
-## Contributing
-
-Contributions are welcome! For complaints, suggestions, or collaboration:
+Contributions are welcome! For suggestions, bug reports, or collaboration:
 
 GitHub: https://github.com/YugMakhecha17
 
 Email: yugmakhecha1710@gmail.com
 
-License
-MIT License
+# License
 
-Copyright (c) 2025 Yug Makhecha
+MIT License © 2025 Yug Makhecha
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -99,7 +96,10 @@ copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+```bash
+python -m textoverlay.models.model_downloader list
