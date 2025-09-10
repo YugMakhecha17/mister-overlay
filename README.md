@@ -55,7 +55,7 @@ u2netp – Lightweight version, faster but less accurate.
 
 Select the desired option to download the weights.
 
-Usage Example
+# Usage Example
 from textoverlay.overlay import interactive_overlay
 
 # Overlay text on an image
@@ -65,7 +65,7 @@ interactive_overlay(
     preferred_area="custom"
 )
 
-Installation
+# Installation
 
 Clone the repository and install dependencies:
 
