@@ -55,9 +55,19 @@ u2netp – Lightweight version, faster but less accurate.
 
 Select the desired option to download the weights.
 
-## Installation
+Usage Example
+from textoverlay.overlay import interactive_overlay
 
-Clone the repository and install requirements:
+# Overlay text on an image
+interactive_overlay(
+    image="data/sample_image.jpg",
+    text="HELLO WORLD",
+    preferred_area="custom"
+)
+
+Installation
+
+Clone the repository and install dependencies:
 
 git clone https://github.com/YugMakhecha17/textoverlay.git
 cd textoverlay
