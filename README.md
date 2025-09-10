@@ -41,13 +41,16 @@
 ### Downloading Weights
 ```
 from textoverlay.models.model_downloader import get_downloader
-
-# List available models (should show only u2net)
+```
+List available models (should show only u2net)
+```
 downloader = get_downloader()
 downloader.list_available_models()
 ```
 # Test download
+```
 downloader.download_model('u2net')
+```
 TextOverlay uses the **U2Net** architecture. To download pre-trained weights, run:
 You will be given two options:
 
