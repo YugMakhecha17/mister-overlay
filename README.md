@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue)](https://www.python.org/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue)](https://github.com/YugMakhecha17/textoverlay)
 
 **TextOverlay** is a powerful Python library that intelligently overlays text on images in a systematic and visually appealing manner. It leverages computer vision and deep learning to automatically determine optimal text placement areas.
 
