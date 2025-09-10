@@ -58,17 +58,17 @@ git clone https://github.com/YugMakhecha17/textoverlay.git
 cd textoverlay
 
 # Install required packages
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 # Usage Example
-from textoverlay.overlay import interactive_overlay
+```from textoverlay.overlay import interactive_overlay```
 
 # Overlay text on an image
-interactive_overlay(
+`interactive_overlay(
     image="data/sample_image.jpg",
     text="HELLO WORLD",
     preferred_area="custom"
-)
+)`
 
 # Contributing
 
