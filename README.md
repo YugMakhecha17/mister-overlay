@@ -42,6 +42,8 @@
 ```
 from textoverlay.models.model_downloader import get_downloader
 ```
+```
+python -m textoverlay.models.model_downloader list
 List available models (should show only u2net)
 ```
 downloader = get_downloader()
@@ -51,6 +53,7 @@ downloader.list_available_models()
 ```
 downloader.download_model('u2net')
 ```
+
 TextOverlay uses the **U2Net** architecture. To download pre-trained weights, run:
 You will be given two options:
 
@@ -110,6 +113,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-```bash
-python -m textoverlay.models.model_downloader list
