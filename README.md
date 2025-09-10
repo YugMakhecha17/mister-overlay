@@ -54,8 +54,8 @@ Select the desired option to download the weights.
 Clone the repository and install dependencies:
 
 # Clone the repository
-git clone https://github.com/YugMakhecha17/textoverlay.git
-cd textoverlay
+`git clone https://github.com/YugMakhecha17/textoverlay.git`
+`cd textoverlay`
 
 # Install required packages
 `pip install -r requirements.txt`
